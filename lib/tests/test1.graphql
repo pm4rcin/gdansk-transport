@@ -1,0 +1,10 @@
+query GtfsExampleQuery {
+  trips {
+    tripHeadsign
+    routeShortName
+    directionId
+    pattern {
+      name
+    }
+  }
+}
